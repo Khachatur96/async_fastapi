@@ -8,10 +8,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.11.6"
-fastapi = "^0.100.0"
+fastapi = "^0.101.1"
 pytest = "^7.4.4"
 uvicorn = {extras = ["standart"], version = "^0.25.0"}
 pydantic = {extras = ["email"], version = "^2.5.3"}
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.25"}
 
 
 [tool.poetry.group.dev.dependencies]
